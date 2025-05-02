@@ -1,7 +1,10 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 body {
-  font-size: 1.5rem; /* aumenta el tamaño del texto */
+  font-size: 1.4rem; /* aumenta el tamaño del texto */
+}
+h5{
+  font-size: 1.4rem; /* aumenta el tamaño del texto */
 }
 
 
