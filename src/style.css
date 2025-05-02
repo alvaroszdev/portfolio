@@ -1,0 +1,59 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  font-size: 1.5rem; /* aumenta el tamaño del texto */
+}
+
+
+
+.hero-section {
+  background: linear-gradient(to right, #e3f2fd, #ffccbc);
+  color: #212529;
+}
+
+.hero-image {
+  max-width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card,
+.project-card,
+.skill-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-card:hover,
+.project-card:hover,
+.skill-card:hover {
+  transform: translateY(-10px);
+}
+
+.about-section {
+  background-color: #f8f9fa;
+}
+
+.project-card,
+.skill-card {
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    background:linear-gradient(to right, #e3f2fd, #ffccbc);
+  }
+}
+
+.alvaro-img {
+  max-width: 500px; /* Puedes ajustar el valor */
+  height: 500px; /* Puedes ajustar el valor */
+  border-radius: 50%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+footer {
+  background-color: #212529;
+  color: #fff;
+}
