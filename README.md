@@ -19,7 +19,6 @@ Aquí encontrarás una muestra de mis proyectos, habilidades y experiencia como 
 ```bash
 .
 ├── index.html
-├── reservas.html
 ├── /src
 │   ├── style.css
 │   └── main.js
